@@ -95,7 +95,7 @@ public:
         }
     }
 
-    float eval(Vec2f &p) const
+    float eval(Vec2f p) const
     {
         int xi = std::floor(p.x);
         int yi = std::floor(p.y);

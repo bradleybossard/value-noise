@@ -5,6 +5,7 @@ Generate a texture using value noise
 
     c++ -o noise noise.cpp -std=c++11 -O3
     ./noise
+    convert noise.ppm noise.png
 
 ## Links
 
